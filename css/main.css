@@ -1,0 +1,103 @@
+* {
+  font-family: "Century Gothic", Geneva, sans-serif;
+}
+.JL_logo{
+  background-color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* NAV BAR */
+
+nav{
+  background-color: white;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  padding: 0;
+}
+nav > ul >li{
+  display: inline-block;
+  padding: 0 20px;
+}
+nav ul li a{
+  color: #D4AF37;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  color: #00D9CB;
+}
+
+nav button{
+  display: none;
+}
+
+/* images on Index.html */
+
+#carousel{
+  position: relative;
+  width: 700px;
+  height: 500px;
+}
+
+#carousel img {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+ }
+
+
+ /* EVENTS.HTML  */
+
+#slider{
+  position: relative;
+  width: 400px;
+  height: 500px;
+}
+
+ #slider img {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+ }
+
+/* MEDIA QUERY - NAV BAR */
+@media (max-width: 768px){
+  #logo{
+    width: 100%;
+    margin: 0;
+  }
+  nav ul li{
+    display: block;
+  }
+
+  #menu-button {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
